@@ -47,3 +47,4 @@ git clone git@github.com:BryanWang512/LearnGit  -- clone remote repositroy
 
 Creating a new branch is quick & simple.
 
+fix bug 101
