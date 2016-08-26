@@ -59,4 +59,12 @@ git stash pop --恢复的同时把stash内容也删了：
 git stash apply --恢复，不删除stash内容
 
 git stash drop --删除stash内容
-=======
+
+git branch -D <name> --丢弃一个没有被合并过的分支，强行删除。
+
+git remote --查看远程库的信息 -v显示更详细的信息
+--以下将远程分支拉取到本地 的步骤
+git remote show origin --show
+git remote update
+git fetch
+git checkout -b local-name origin/remote-name --将远程分支拉取到本地
