@@ -44,8 +44,6 @@ git clone git@github.com:BryanWang512/LearnGit  -- clone remote repositroy
 删除远程分支: git push origin :branch-name --冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
 
 创建远程分支: git push origin branch-name  --先切换到本地创建的新分支
-<<<<<<< HEAD
 
 Creating a new branch is quick & simple.
-=======
->>>>>>> feature
+
