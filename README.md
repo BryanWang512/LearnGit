@@ -28,5 +28,15 @@ $ git push -u origin master --把本地库的内容推送到远程，用git push
 
 git clone git@github.com:BryanWang512/LearnGit  -- clone remote repositroy
 
-$ git checkout -b dev --创建dev分支， 并且切换到dev 相当于下面两条命令
-$git branch dev   $git checkout dev
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
