@@ -47,4 +47,16 @@ git clone git@github.com:BryanWang512/LearnGit  -- clone remote repositroy
 
 $ git log --graph --pretty=oneline --abbrev-commit --查看分支合并图
 
-git stash
+<<<<<<< Updated upstream
+$ git merge --no-ff -m "merge with no-ff" dev --合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+
+git stash --可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作：
+
+git stash list --查看工作现场
+
+git stash pop --恢复的同时把stash内容也删了：
+
+git stash apply --恢复，不删除stash内容
+
+git stash drop --删除stash内容
+=======
