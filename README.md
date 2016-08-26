@@ -40,3 +40,9 @@ git clone git@github.com:BryanWang512/LearnGit  -- clone remote repositroy
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+删除远程分支: git push origin :branch-name --冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
+
+创建远程分支: git push origin branch-name  --先切换到本地创建的新分支
+
+Creating a new branch is quick & simple.
